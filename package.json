@@ -1,6 +1,6 @@
 {
   "name": "homebridge-k5s-rgb-light",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Homebridge plugin for controlling RGB lights over MQTT.",
   "main": "src/index.js",
   "scripts": {
