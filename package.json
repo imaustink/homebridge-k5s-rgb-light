@@ -1,0 +1,28 @@
+{
+  "name": "homebridge-k5s-rgb-light",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for controlling RGB lights over MQTT.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest test/*.spec.js"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "RGB",
+    "LED",
+    "MQTT",
+    "light"
+  ],
+  "engines": {
+    "homebridge": ">=0.2.5"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "homebridge-mqtt-base": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "jest": "^24.8.0"
+  }
+}
